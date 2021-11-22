@@ -1,0 +1,31 @@
+#include<iostream>
+
+using namespace std;
+
+
+
+int main(){
+
+int age;
+
+cout<<"Hey User!!\n"<<"Please enter your age : ";
+
+cin>>age;
+
+
+
+if(age>=18){
+
+cout<<"Congrats!! You will have a role in making the government of this country"<<endl;
+
+}
+
+else{
+
+cout<<"You should be at least 18 years old to vote.\n"<<"Turn 18 first!!"<<endl;
+
+}
+
+return 0;
+
+}
